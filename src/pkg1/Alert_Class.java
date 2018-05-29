@@ -22,7 +22,7 @@ public class Alert_Class {
 		driver.findElement(By.name("cusid")).sendKeys("123456");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 
 		//Click on submit button
 		driver.findElement(By.name("submit")).submit();
